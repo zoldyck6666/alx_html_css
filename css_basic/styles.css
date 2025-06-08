@@ -13,3 +13,30 @@ footer {
   font-size: 0.9em;
   color: #555;
 }
+/* Flexbox layout for full page structure */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Article takes 2/3 of the space */
+article {
+  flex: 2;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+/* Aside takes 1/3 of the space */
+aside {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+}

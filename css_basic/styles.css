@@ -1,5 +1,3 @@
-/* styles.css */
-
 /* Flexbox layout (don’t touch this as per instructions) */
 body {
   display: flex;
@@ -75,5 +73,11 @@ a:hover {
   article, aside {
     flex: auto;
     padding-right: 0;
+    margin-bottom: 20px; /* added for vertical spacing */
+  }
+  
+  aside {
+    margin-bottom: 0; /* avoid extra margin at the bottom */
   }
 }
+
